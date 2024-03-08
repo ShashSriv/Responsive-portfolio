@@ -12,24 +12,23 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="projects-grid">
-      {projects.map((project) => (
-        <Row>
-          <Col>
-            <div key={project.id} className="project-card" style={{backgroundImage: `url(${project.image})`, backgroundSize: 'cover'}}>  `
-              <h3 className="project-info">{project.title}</h3>
-              <a href={project.link} target="_blank" ><button className="project-button">Github</button></a>
-            </div>
-            <div>
-              <h3 className="project-title">{project.title}</h3>
-              <p className="project-description">{project.description}</p>
-            </div>
-          </Col>
-        </Row>
-      ))}
+    <section id="projects" className="projects-grid">   
+        {projects.map((project) => (
+          <Row key={project.id}>
+            <Col>
+              <div className="project-card" style={{backgroundImage: `url(${project.image})`, backgroundSize: 'cover'}}>
+                <h3 className="project-info">{project.title}</h3>
+                <a href={project.link} target="_blank" ><button className="project-button">Github</button></a>
+              </div>
+              <div>
+                <h3 className="project-title">{project.title}</h3>
+                <p className="project-description">{project.description}</p>
+              </div>
+            </Col>
+          </Row>
+        ))}      
     </section>
   );
 };
 
 export default Projects;
-

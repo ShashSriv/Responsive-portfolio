@@ -32,18 +32,18 @@ const Skills = () => {
         <section className='skills' id='skills'>
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={12} md={8} xl={7}>
                         <Carousel responsive={responsive} infinite = {true} data-bs-theme = "dark">
                             <Carousel.Item responsive = {responsive}>
                                 <img className="carousel-image1" id="1" src = {Python}></img>
                                 <Carousel.Caption>      
-                                    <p id="caption">Worked on basic graphics and OOP structures, as well as Pandas and MatplotLib libraries for data analysis</p>
+                                    <p id="caption">Basic graphics and OOP structures/Pandas and MatplotLib libraries for data analysis</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item responsive = {responsive}>
                                 <img className="carousel-image2"src = {Java} alt = "First Slide"></img>
                                 <Carousel.Caption>      
-                                    <p id="caption">Well versed in OOP structure as well as basic Java FXML and GUI creation</p>
+                                    <p id="caption">Well versed in OOP structure and basic Java FXML and GUI creation</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -58,7 +58,7 @@ const Skills = () => {
                             <img className="carousel-image4" src = {ReactImage} alt = "First Slide"></img>
                                 <Carousel.Caption>
                                     <p id="caption">
-                                    Implementing React in static websites as well as integrating with Google Firebase capabilities
+                                    Implementing React in static websites and integrating with Google Firebase capabilities
 
                                     </p>
                                 </Carousel.Caption>

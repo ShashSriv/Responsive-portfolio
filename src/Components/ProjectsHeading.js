@@ -8,7 +8,7 @@ const ProjectsHeading = () => {
                 <Container>
                     <Row className="align-items-center">
                             <h1>My Projects</h1>
-                            <p>Here are some of my recent projects. Hover over them for some more information and a link to its respective github repository</p>
+                            <p>Here are some of my recent projects. Hover or tap on them for some more information and a link to its respective github repository</p>
                     </Row>
                 </Container>
             </div>

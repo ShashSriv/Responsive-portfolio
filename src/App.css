@@ -1,8 +1,10 @@
+body {
+  -webkit-text-size-adjust: 100%;
+}
 
 /* Navbar styles */
 .logo {
   padding: 10px 20px;
-  border-radius: 10px;
 }
 
 .navbar-text {
@@ -54,7 +56,6 @@
 
 /*Banner CSS*/
 
-
 .banner {
   padding: 90px 0px 100px 0px;
   margin-top: 0px;
@@ -64,20 +65,38 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (min-width: 768px) {
+  .banner h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: start;
+    color: #ffffff;
+  }
 
-.banner h1 {
-  font-size: 4rem;
-  font-weight: 700;
-  text-align: start;
-  color: #ffffff;
+  .banner p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: start;
+    color: #ffffff;
+  }
 }
 
-.banner p {
-  font-size: 1.5rem;
-  font-weight: 400;
-  text-align: start;
-  color: #ffffff;
+@media screen and (max-width: 768px) {
+  .banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: start;
+    color: #ffffff;
+  }
+  
+  .banner p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: start;
+    color: #ffffff;
+  }
 }
+
 
 .learn-more-button {
   border-width: 0px;
@@ -156,12 +175,24 @@
   color: #000000;
 }
 
-#caption {
-  text-align: center;
-  color: #000000;
-  font-size: 1rem;
-  font-weight: 200;
-  margin-top: 10px;
+@media screen and (min-width: 768px) {
+  #caption {
+    text-align: center;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #caption {
+    text-align: center;
+    color: #000000;
+    font-size: .7rem;
+    font-weight: 200;
+    margin-top: 10px;
+  }
 }
 /****Project Header CSS****/
 .project-heading {
@@ -188,10 +219,39 @@
 }
 
 /****Projects CSS****/
+@media screen and (min-width: 768px) {
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 20px;
+    padding: 100px 20px;
+    margin-top: 0px;
+    min-height: auto;
+    min-width: auto;
+    margin-bottom: 0px;
+    background-color: #f5f5f5;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(3);
+    grid-gap: 20px;
+    padding: 100px 20px;
+    margin-top: 0px;
+    min-height: auto;
+    min-width: auto;
+    margin-bottom: 0px;
+    background-color: #f5f5f5;
+  }
+}
 .projects-grid {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3);
   grid-gap: 20px;
   padding: 100px 20px;
   margin-top: 0px;
@@ -296,15 +356,30 @@
   margin-bottom: 0px;
 }
 
-.contact-bubble {
-  margin-left: 23%;
-  margin-right: 23%;
-  background-color: #f5f5f5;
-  border-radius: 10px;
-  padding: 20px;
-  overflow-wrap: break-word;
-  -webkit-box-shadow: 1px 1px 14px 6px rgba(210,130,93,0.63); 
-  box-shadow: 1px 1px 14px 6px rgba(210,130,93,0.63);
+@media screen and (min-width: 768px) {
+  .contact-bubble {
+    margin-left: 23%;
+    margin-right: 23%;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-wrap: break-word;
+    -webkit-box-shadow: 1px 1px 14px 6px rgba(210,130,93,0.63); 
+    box-shadow: 1px 1px 20px 12px rgba(210,130,93,0.63);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-bubble {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-wrap: break-word;
+    -webkit-box-shadow: 1px 1px 14px 6px rgba(210, 130, 93, 0.758); 
+    box-shadow: 1px 1px 20px 12px rgba(210, 130, 93, 0.735);
+  }
 }
 
 .contact-info h1 {
