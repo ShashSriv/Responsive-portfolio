@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
-import Python from '../Assets/Img/Python.png';
-import Java from '../Assets/Img/Java.png';
-import MySql from '../Assets/Img/MySql.png';
-import ReactImage from '../Assets/Img/React.png';
+import Python from '../Assets/Assets/Python.png';
+import Java from '../Assets/Assets/Java.png';
+import MySql from '../Assets/Assets/MySql.png';
+import ReactImage from '../Assets/Assets/React.png';
    
 
 const Skills = () => {

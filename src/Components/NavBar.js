@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Nav, Navbar, Container} from "react-bootstrap";
-import icon1 from '../Assets/Img/Icon1.svg'
-import icon2 from '../Assets/Img/Icon2.svg';
-import icon3 from '../Assets/Img/Icon3.svg';
+import icon1 from '../Assets/Assets/Icon1.svg'
+import icon2 from '../Assets/Assets/Icon2.svg';
+import icon3 from '../Assets/Assets/Icon3.svg';
 
 export default class NavBar extends Component {
 
