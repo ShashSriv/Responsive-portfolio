@@ -28,7 +28,7 @@ export default class NavBar extends Component {
                                 <a href="https://www.linkedin.com/in/shashwat-srivastava-444334251/" target="_blank"><img src={icon2} width={40} height={40} alt="" /></a>
                             </div>
                             <Nav.Link href="#contact">
-                                <button className="connect-button"><span className="connect-text">Let Connect</span></button>
+                                <button className="connect-button"><span className="connect-text">Let's Connect</span></button>
                             </Nav.Link>
                         </span>
                     </Navbar.Collapse>
