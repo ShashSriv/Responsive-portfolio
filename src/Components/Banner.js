@@ -1,5 +1,7 @@
 import React from 'react';
 import {Button, Row, Container, Col} from 'react-bootstrap';
+import { motion } from 'framer-motion';
+import ProfilePhoto from '../Assets/Assets/ProfilePhoto.png'
 
 const Banner = () => {
   return (
@@ -13,6 +15,9 @@ const Banner = () => {
                     <Button className="learn-more-button" href="#skills">Learn More</Button>
                 </Col> 
                 <Col xs = {12} md = {6} xl = {5}>
+                  <div className="profile-container">
+                    <img className="profile-photo" src={ProfilePhoto} alt="Profile Photo" />
+                  </div>
                 </Col>
             </Row>
         </Container>

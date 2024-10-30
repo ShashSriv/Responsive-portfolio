@@ -108,6 +108,29 @@ body {
   transition: box-shadow 300ms ease-out;
 }
 
+
+
+@media screen and (max-width: 768px) {
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+    margin-left: 25%;
+    margin-top: 10%;
+
+    border-radius: 50%;
+    border: 5px solid;
+    box-shadow: 0 0 30px 5px rgba(218, 119, 5, 0.747);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profile-photo {
+    border-radius: 50%;
+    border: 5px solid;
+    box-shadow: 0 0 30px 5px rgba(218, 119, 5, 0.747);
+  }
+}
+
 .learn-more-button:hover {
   box-shadow: 0px 0px 14px 7px rgba(232, 201, 134, 0.667);
   background-color: rgba(225, 223, 223, 0.703)
